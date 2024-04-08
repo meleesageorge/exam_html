@@ -1,0 +1,22 @@
+*{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: wheat;
+
+}
+
+.item{
+    background-color: plum;
+}
+.box{
+    background-color: powderblue;
+}
+.container:hover{
+    background-color: peru;
+}
+@media(max-width:600px){
+    .content{
+        display: none;
+    }
+}
